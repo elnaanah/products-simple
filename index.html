@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صفحة المنتجات</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <style>
+    .container,
+    .row {
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">الصفحة الرئيسية</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">تسجيل الدخول</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">التسجيل</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container cust-cont">
+    <h2 class="text-center py-4">منتجاتنا</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="assets/images/s1.jpg" class="card-img-top" alt="Product 1" />
+          <div class="card-body">
+            <h5 class="card-title">لابتوب ديل للاستخدام المكتبي</h5>
+            <p class="card-text">
+              لابتوب ديل المميز للاستخدام المكتبي يجمع بين الأداء القوي
+              والتصميم الأنيق. مثالي للعمل في المكتب أو للاستخدام اليومي، يوفر
+              هذا اللابتوب تجربة مستخدم سلسة وموثوقة.
+            </p>
+            <p class="card-text"><strong>السعر: $299.00</strong></p>
+            <a href="#" class="btn btn-primary">إضافة إلى السلة</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="assets/images/s2.jpg" class="card-img-top" alt="Product 2" />
+          <div class="card-body">
+            <h5 class="card-title">تابليت 9 من ابل</h5>
+            <p class="card-text">
+              تابليت 9 من ابل يجمع بين الأداء الرائع والتصميم الأنيق، مما
+              يجعله الخيار المثالي لمحبي التكنولوجيا. يتميز بشاشة عالية الدقة
+              وأداء سريع يلبي احتياجاتك اليومية بكفاءة.
+            </p>
+            <p class="card-text"><strong>السعر: $399.00</strong></p>
+            <a href="#" class="btn btn-primary">إضافة إلى السلة</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="assets/images/s3.jpg" class="card-img-top" alt="Product 3" />
+          <div class="card-body">
+            <h5 class="card-title">لابتوب جيمنج من ديل</h5>
+            <p class="card-text">
+              لابتوب جيمنج من ديل هو الرفيق المثالي لعشاق الألعاب، حيث يجمع
+              بين الأداء القوي والتصميم المبتكر. يوفر تجربة لعب سلسة ومثيرة
+              للمستخدمين مع شاشة عالية الدقة ومعالج قوي.
+            </p>
+            <p class="card-text"><strong>السعر: $599.00</strong></p>
+            <a href="#" class="btn btn-primary">إضافة إلى السلة</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
